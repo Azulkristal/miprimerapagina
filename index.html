@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <script src="https://kit.fontawesome.com/512d94f681.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><i class="fa-regular fa-star-half-stroke"></i></a>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn"> 
+                 <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li> <a href="index.html">Sobre mi</a></li>
+                    <li> <a href="index.html">Trabajos</a></li>
+                    <li> <a href="img/foto.jpg">Servicios</a></li>
+                    <li> <a href="img/foto2.jpg">Contacto</a></li>
+                </ul>
+            </nav>
+         </header> 
+    </div>
+         <main id="seccion-principal">
+            <section class="seccion-1">
+             <div class="acerca-de">
+                <h1> Acerca de mí</h1>
+                <p>Bienvenido a mi página web </p>
+                <p> Mi nombre es Cristina López Naranjo, Soy de Colombia, del oriente antioqueño.  
+                    Me gusta la música, también leer, en este momento quiero aprender programación 
+                    para ampliar mis horizontes en el área laboral.  
+                    Seguramente este proceso vendrá acompañado de nuevas experiencias y relaciones.</p>
+             </div>
+             <div class="acerca-imagen"> 
+               <img src="img/foto.jpg" alt="foto">
+             </div>
+            </section>
+            <section class="seccion-2">
+               <img src="img/foto2.jpg" alt="paisaje">
+            </section> 
+            <section>
+                <h2> Lo más valioso </h2>
+                <div class="container1">
+                    <div class="descripción-container1">
+                        <div class="card">
+                            <div class="item"><img src="img/2 cor 9.10-11.jpg" alt="semilla"/></div>
+                            <h3>Semilla</h3>
+                            <span class="text"> Este Jesús es la piedra reprobada por vosotros los edificadores, la cual ha venido a ser cabeza del ángulo. 12 Y en ningún otro hay salvación; porque no hay otro nombre bajo el cielo, dado a los hombres, en que podamos ser salvos.
+                             <a href="https://www.facebook.com/cris.lopez.902819">
+                            <span class="leer">Leer más</span>
+                        </a>  
+                    </div>                      
+                    </div>
+                    <div class="descripción-container1">
+                        <div class="card">
+                            <div class="item"><img src="img/fruto.jpg" alt="fruto"/></div>
+                            <h3>Proceso</h3>
+                            <span class="text"> que si confesares con tu boca que Jesús es el Señor, y creyeres en tu corazón que Dios le levantó de los muertos, serás salvo. 10 Porque con el corazón se cree para justicia, pero con la boca se confiesa para salvación</span>
+                            <a href="https://www.facebook.com/cris.lopez.902819">
+                            <span class="leer">Leer más</span>
+                        </a>   
+                    </div>                     
+                    </div>
+                    <div class="descripción-container1">
+                        <div class="card">
+                            <div class="item"><img src="img/camino.jpg" alt="proceso"></div>
+                            <h3>Fruto</h3>
+                            <span class="text">8 Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; 9 no por obras, para que nadie se gloríe. 10 Porque somos hechura suya, creados en Cristo Jesús para buenas obras, las cuales Dios preparó de antemano para que anduviésemos en ellas.</span>
+                            <a href="https://www.facebook.com/cris.lopez.902819">
+                            <span class="leer">Leer más</span>
+                        </a>   
+                        </div>                     
+                    </div>
+                </div>
+            </section>
+         </main>
+    <div class="form-header">
+    <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+
+    <form action="" method="get" class="formulario" id="form">
+          <div class="form-row">
+          <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" />
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="hola@gmail.com"
+          required
+        />
+      </div>
+      <div class="form-row">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+      </div>
+      <div class="form-row">
+        <button type="submit" id="submit">Enviar</button>
+      </div>
+      <p class="alertas" id="alertas"></p>
+     </form>
+    </div>
+                 
+</footer>
+    <div class="redes">
+        <h4> Mis redes sociales </h4>                           
+        <nav>
+            <ul>                        
+                <a href="https://www.facebook.com/cris.lopez.902819"><li>Facebook</li></a>
+                <li>Instagram</li>
+                <li>Whatsapp</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="final">
+        <a href="index.html"><i class="fa-regular fa-star-half-stroke"></i></a>
+    </div>    
+        </footer>
+    <script src="script.js"></script> 
+  </body>
+</html>
